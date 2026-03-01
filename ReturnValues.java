@@ -7,7 +7,7 @@ public class ReturnValues{
         System.out.print("Input de width: ");
         double  w = scan.nextDouble();       
         double area = calculateArea(l,w);
-        System.out.print(area+"\n");
+        printArea(l,w,area);
         System.out.print("Enter de languaje: ");
         scan.nextLine();
         String  languaje = scan.nextLine();; 
@@ -31,7 +31,7 @@ public class ReturnValues{
     	}
     }
     public static void printArea(double length, double width, double area){
-    	System.out.print("A rectangle with a lenght of "+lenght+" and a width of "+width+" has an area of "+area+);
+    	System.out.print("A rectangle with a lenght of "+length+" and a width of "+width+" has an area of "+area+"\n");
     }    
 }
 //English "Area equals length * width"
